@@ -17,6 +17,9 @@
 .Terms a{
     color:gray;
 }
+.new-user a{
+    color:black;
+}
 .login-dialog {
     max-width: 1100px;
     margin: 0 auto;

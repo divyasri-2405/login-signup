@@ -1,0 +1,96 @@
+.navbar{
+    background-color:white;
+    padding:10px 0;
+}
+.already-account a{
+    color:black;
+}
+.business-account a{
+    color:black;
+}
+.signup-terms a{
+    color:gray;
+}
+.signup-terms{
+    color:gray;
+}
+.Terms a{
+    color:gray;
+}
+.login-dialog {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.login-dialog .modal-content {
+    width:900px;
+    height: 670px;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.login-dialog .row {
+    height: 100%;
+    margin: 0;
+}
+.login-left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 15px 18px;
+}
+.login-right {
+    width: 50%;
+    height: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-dialog{
+     max-width: 1100px;
+     margin: 0 auto;
+}
+.signup-dialog .modal-content{
+    width:500px;
+    height: 700px;
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.signup-dialog .row {
+    height: 100%;
+    margin: 0;
+}
+.input-box{
+    width: 100%;
+     border: black;
+}
+.input-box input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.image-class{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+}
+.google{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black  !important;
+    border-radius: 50px;
+    background-color: white;
+}
+.signup-continue {
+    border-radius: 40px;
+}
+.signup-button {
+    background-color: #e5e5e5 !important;
+    color: black !important;
+    border: none;
+}

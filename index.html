@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest-India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Pinterest-logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+     <a class="navbar-brand p-1 ms-5" href="#"><img src="Pinterest-Logo-2016-present.jpg" alt='' width="150px"></a>
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Explore</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item me-4">
+          <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+         <li class="nav-item me-4">
+          <a class="nav-link active" aria-current="page" href="#">Businesses</a>
+          </li>
+          <li class="nav-item me-4">
+          <a class="nav-link active" aria-current="page" href="#">Create</a>
+          </li>
+          <li class="nav-item me-4">
+          <a class="nav-link active" aria-current="page" href="#">News</a>
+          </li>
+         <li class="nav-item me-2">
+                <button type="button"
+                        class="btn btn-danger login-button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#loginPage">
+                    Log in
+                </button>
+            </li>
+            <li class="nav-item">
+                <button type="button"
+                        class="btn signup-button"
+                        data-bs-toggle="modal"
+                        data-bs-target="#signupPage">
+                    Sign up
+                </button>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+        <div class="modal fade"
+     id="loginPage"
+     tabindex="-1"
+     aria-hidden="true">
+    <div class="modal-dialog login-dialog">
+        <div class="modal-content">
+    <img src="x.png" class="image-class" alt="Close">
+            <div class="container-fluid h-100 login">
+                <div class="row h-100">
+            <div class="col-6 login-left">
+                <div class="login-logo">
+                <img src="Pinterest-logo.png" alt="" width="70px">
+                </div>
+            <h1>Welcome to Pinterest</h1>
+            <p class="login-description">
+                Log in to discover more ideas just for you</p>
+            <div class="input-box mt-4">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box password-box mt-4">
+                <input type="password" placeholder="Password">
+            </div>
+         <p class="forgot-password mt-4"><a href="#" class="forgot-password">Forgotten Password?</a></p>
+          <br>
+          <button class=" btn btn-danger login-submit mt-2">Log in </button>
+          <p class="mt-4">OR</p>
+          <button class=" btn btn-light google mt-4"><img src='./google-logo.jpg' class='google-logo' width="22px"><span>
+            Continue with Google</span></button>
+           <p class="new-user mt-4">New to Pinterest?
+           <a href="#">Join for free</a>
+           </p>
+           <p class="Terms mt-4">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Notice at Collection</a>
+           </p>
+        </div>
+        <div class="col-6 login-right">
+            <div class="qr-box mt-5">
+                <img src="./qrcode.png" alt="" width="300px">
+                <p class="login-para-right mt-4">Or,<b>log in instantly</b> by scanning</p>
+                <p>code with your phone</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+<!-- SIGN UP MODAL -->
+<div class="modal fade"
+     id="signupPage"
+     tabindex="-1"
+     aria-hidden="true">
+    <div class="modal-dialog signup-dialog">
+        <div class="modal-content signup-content">
+            <img src="x1.png" class="image-class" alt="Close">
+            <div class="container-fluid h-100 signup">
+                <div class="row h-100">
+              <div class="sign-up-logo">
+                <img src="Pinterest-logo.png" alt="" width="70px">
+              </div>
+              <h1>Welcome to Pinterest</h1>
+              <p class="signup-description ">Join Pinterest for free to discover more ideas</p>
+               <button class=" btn btn google mt-4"><img src='./google-logo.jpg' class='google-logo' width="22px"><span>
+            Continue with Google</span></button>
+              <p class="or mt-2">OR</p>
+        <div class="input-box mt-2">
+                <input type="email" placeholder="Enter your email address">
+            </div>
+            <div class="input-box password-box mt-2">
+                <input type="password" placeholder="Create a password">
+            </div>
+            <p class="password-help mt-1">Use 8 or more letters, numbers and symbols</p>
+            <div class="input-box mt-1.5">
+                <input type="dob" placeholder="Enter your date of birth (dd/mm/yyyy)">
+            </div>
+            <button class=" btn btn-danger w-25 mt-2">Continue</button>
+            <p class="already-account mt-2">Already have an account?
+                        <a href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#loginPage"
+                            data-bs-dismiss="modal">
+                            Log in
+                        </a>
+            </p>
+            <p class="business-account mt-1.5">Are you a business?
+<a href="#">Get started here</a>
+            </p>
+           <p class="signup-terms mt-2">By continuing,you agree to Pinterest's
+            <a href="#"> Terms of Service</a> and
+            <br>
+            acknowledge that you've read our <a href="#">Privacy Policy.</a><a href="#">Notice at collection.</a> 
+           </p> 
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
